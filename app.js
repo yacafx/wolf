@@ -1,6 +1,11 @@
-console.log('Hola mundo!', 'Fuck yeah!');
+// console.log('Hola mundo!', 'Fuck yeah!');
+const express = require('express')
+const app = express()
 
-var nombre = "Sergio";
-var nick = "yacaFx";
+app.get('/', function (req, res) {
+    res.send('Hello World!')
+})
 
-console.log(nombre, 'es', nick);
+app.listen(3000, function () {
+    console.log('Example app listening on port 3000!')
+})
