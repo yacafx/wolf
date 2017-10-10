@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yacafx/wolf/issues"
   },
-  "homepage": "https://github.com/yacafx/wolf#readme"
+  "homepage": "https://github.com/yacafx/wolf#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
