@@ -1,0 +1,19 @@
+{
+  "name": "wolf",
+  "version": "1.0.0",
+  "description": "Mi primer web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacafx/wolf.git"
+  },
+  "author": "yacaFx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yacafx/wolf/issues"
+  },
+  "homepage": "https://github.com/yacafx/wolf#readme"
+}
